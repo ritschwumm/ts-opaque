@@ -11,7 +11,7 @@ import type { Symbols } from "./Symbols";
  * another opaque type derived from the same base type given that their brand
  * types are not mutually assignable.
  *
- * It is crucual that brands are handled well. A common practice is to assign
+ * It is crucial that brands are handled well. A common practice is to assign
  * `BrandType` to the name of the type; another encouraged practice is to
  * define an opaque type in terms of its surrounding interface, forming a
  * recursive type.
